@@ -1,5 +1,5 @@
-const LoginPage = () => {
-  return <h1>로그인</h1>
+const AdminMessagePage = () => {
+  return <h1>쪽지 삭제 페이지</h1>
 }
 
-export default LoginPage
+export default AdminMessagePage

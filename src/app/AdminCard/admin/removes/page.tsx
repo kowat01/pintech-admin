@@ -1,5 +1,5 @@
-const LoginPage = () => {
-  return <h1>로그인</h1>
+const AdminCardPage = () => {
+  return <h1>카드 삭제 페이지</h1>
 }
 
-export default LoginPage
+export default AdminCardPage
