@@ -207,7 +207,7 @@ const JoinForm = ({ form, onClick, onChange, onSelectDate, actionState }) => {
             광고성 정보 전송에 동의합니다.(선택)
           </div>
         </div>
-        <BigButton type="submit" className="submit-btn" disabled={isPending}>
+        <BigButton type="submit" className="submit-btn" disabled={isPending} style={{ cursor: 'pointer' }}>
           가입하기
         </BigButton>
       </StyledForm>

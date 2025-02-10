@@ -31,7 +31,7 @@ const LoginForm = ({ actionState, onChange, form }) => {
       />
       <Messages color="danger">{errors?.password}</Messages>
 
-      <BigButton type="submit" disabled={isPending}>
+      <BigButton type="submit" disabled={isPending} style={{ cursor: 'pointer' }}>
         로그인
       </BigButton>
 
